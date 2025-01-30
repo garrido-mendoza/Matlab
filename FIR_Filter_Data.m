@@ -1,3 +1,11 @@
+% Script ID: FIR_Filter_Data.m
+% Engineer: Diego Garrido-Mendoza.
+% 
+% Overview:
+% This script generates various input signals, such as a noisy sine wave, a direct impulse and a Gaussian impulse, and to use these
+% to test the response of a FIR filter model to these inputs. The ultimate goal is to check the response and performance of this FIR
+% filter model, and to compare its behavior with an FPGA-based version of the same FIR filter designed using Verilog. 
+
 clc;
 close all;
 clear;
